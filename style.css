@@ -1,0 +1,46 @@
+body{
+    height: 200vh;
+    background-color: #FFFFFF;
+}
+header{
+    border-bottom: solid 2px black;
+    box-shadow:5px 15px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(240, 248, 255, 0);
+}
+#Float-Animation{
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+}
+nav{
+    background-color: aqua;
+    display: none;
+}
+#IMG-WhatsApp{
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
